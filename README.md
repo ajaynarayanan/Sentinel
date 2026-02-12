@@ -8,6 +8,8 @@ Sentinel follows a strict, repeatable workflow designed for **traceability, audi
 ## Agentic AI Workflow
 
 ![Architecture ](figs/arch.png)
+*System architecture illustrating Sentinel’s MCP-native agentic pipeline: orchestrator (Dedalus), high-recall researcher, deterministic judge, and human review.*
+
 ### 1) Researcher: High-Recall Evidence Gathering
 
 * Enriches the subject using customer profile attributes.
@@ -111,6 +113,9 @@ npm run dev
 * Frontend: `http://localhost:3000`
 
 ## Usage
+
+![Sentinel Sample UI](figs/sentinel_demo_image.png)
+*Example interface showing an adjudication run with evidence stream and decision card.*
 
 1. Start the backend and frontend.
 2. Select a customer or case in the UI.
