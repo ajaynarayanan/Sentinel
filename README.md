@@ -4,7 +4,6 @@ Sentinel is an **agentic AI pipeline for autonomous compliance adjudication** in
 
 Sentinel follows a strict, repeatable workflow designed for **traceability, auditability, and low-hallucination risk**.
 
----
 
 ## Agentic AI Workflow
 
@@ -32,8 +31,6 @@ Sentinel follows a strict, repeatable workflow designed for **traceability, audi
 
 Humans can review or override agent outputs when needed. The result is **grounded, traceable, production-ready decisions** with built-in oversight.
 
----
-
 ## 🔌 MCP Integration
 
 Sentinel is **MCP-native**: external systems are accessed through MCP connectors, enabling:
@@ -59,7 +56,6 @@ Sentinel is **MCP-native**: external systems are accessed through MCP connectors
 * **Human-in-the-loop:** ambiguous cases escalate to manual review.
 * **Auditability:** decisions are explainable and sources are preserved.
 
----
 
 ## Getting Started (Local Development)
 
@@ -71,8 +67,6 @@ Sentinel is **MCP-native**: external systems are accessed through MCP connectors
 
   * Dedalus SDK
   * Capital One Nessie Hackathon API
-
----
 
 ## Backend Setup
 
@@ -98,8 +92,6 @@ Run the backend in dev mode:
 fastapi dev main.py
 ```
 
----
-
 ## Frontend Setup
 
 In `frontend/app/page.tsx`, set:
@@ -118,8 +110,6 @@ npm run dev
 
 * Frontend: `http://localhost:3000`
 
----
-
 ## Usage
 
 1. Start the backend and frontend.
@@ -130,8 +120,6 @@ npm run dev
 
    * Approve / Close
    * Escalate for manual review
-
----
 
 ## Security & Auditability
 
